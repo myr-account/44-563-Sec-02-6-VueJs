@@ -15,3 +15,5 @@
  Omkar Abhiteja Badda, Find his [Github](https://github.com/abhiteja29)
 
  Anil Bomma, Find me here [Github](https://github.com/anil-bomma)
+
+ Yugandhar Mamidi, Find my account [GitHub](https://github.com/yugimamidi)
