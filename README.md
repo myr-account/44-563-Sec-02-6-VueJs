@@ -18,7 +18,7 @@ If you are an experienced frontend developer and want to know how Vue compares t
 
 ## This is Anil Bomma. let's get started..!
 
-## References
+## References:
 
 * View Vue.js docs [click-here](https://vuejs.org/v2/guide)
 
