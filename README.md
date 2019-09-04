@@ -14,7 +14,7 @@ If you are an experienced frontend developer and want to know how Vue compares t
 
 ## Hi All, Let's get started with VueJs - Yugandhar Mamidi
 
-## Hi guys, Hope you all are doing good. So, let's start our work on VueJs. Omkar Abhiteja Badda
+## Hi guys, let's start our work on VueJs. Omkar Abhiteja Badda
 
 ## This is Anil Bomma. let's get started..!
 
