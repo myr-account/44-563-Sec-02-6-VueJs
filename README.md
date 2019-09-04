@@ -1,4 +1,4 @@
-# 44-563-Sec-02--6-VueJs
+# 44-563-Sec-02-6-VueJs
 
 ## VueJs project.
 
