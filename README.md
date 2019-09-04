@@ -1,6 +1,14 @@
 # 44-563-Sec-02--6-VueJs
 
 ## This is a README file for our VueJs project.
+
+What is Vue.js?
+Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
+
+If you’d like to learn more about Vue before diving in, we created a video walking through the core principles and a sample project.
+
+If you are an experienced frontend developer and want to know how Vue compares to other libraries/frameworks, check out the Comparison with Other Frameworks.
+
 ## Readme edited by bharat reddy
 
 ## Hi All, Let's get started with VueJs - Yugandhar Mamidi
@@ -8,6 +16,10 @@
 ## Hi guys, Hope you all are doing good. So, let's start our work on VueJs. Omkar Abhiteja Badda
 
 ## This Anil Bomma. let's get started..!
+
+## References
+
+* View Vue.js docs [click-here] (https://vuejs.org/v2/guide)
 
 ## Contributors
  Bharat Reddy, Find his [Github](https://github.com/bharat-reddy-male)
