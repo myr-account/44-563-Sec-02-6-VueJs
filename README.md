@@ -7,7 +7,11 @@
 
 ## Hi guys, Hope you all are doing good. So, let's start our work on VueJs. 
 
+## let's get started..!
+
 ## Contributors
  Bharat Reddy, Find his [Github](https://github.com/bharat-reddy-male)
 
  Omkar Abhiteja Badda, Find his [Github](https://github.com/abhiteja29)
+
+ Anil Bomma, Find me here [Github](https://github.com/anil-bomma)
