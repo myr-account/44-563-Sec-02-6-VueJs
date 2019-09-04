@@ -5,8 +5,10 @@
 
 ## Hi All, Let's get started with VueJs - Yugandhar Mamidi
 
-## Hi guys, Hope you are doing good now let's start the work - Omkar Abhiteja Badda
+## Hi guys, Hope you are doing good now let's start our work on VueJs - Omkar Abhiteja Badda
 
 ## Contributors
 
 - Bharat Reddy, Find his [Github](https://github.com/bharat-reddy-male)
+
+- Omkar Abhiteja Badda, Find his [Github](https://github.com/abhiteja29)
