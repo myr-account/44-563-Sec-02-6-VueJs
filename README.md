@@ -5,7 +5,7 @@
 
 ## Hi All, Let's get started with VueJs - Yugandhar Mamidi
 
-## Hi guys, Hope you all are doing good. So, let's start our work on VueJs. 
+## Hi guys, Hope you all are doing good. So, let's start our work on VueJs. Omkar Abhiteja Badda
 
 ## This Anil Bomma. let's get started..!
 
