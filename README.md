@@ -17,6 +17,7 @@ Vue Js is used to create single page applications. It reuse components and runs 
 ## Hi All, Let's get started with VueJs - Yugandhar Mamidi
 
 ## Hi guys, let's start our work on VueJs. Omkar Abhiteja Badda
+- Created a pull request
 
 ## This is Anil Bomma. let's get started..!
 
