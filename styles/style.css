@@ -1,0 +1,14 @@
+.btn-generate {
+    margin-left: 13px;
+    padding: 10px 30px !important;
+}
+
+.form-generate {
+    width: 105%;
+    margin-top: 5px;
+    border-radius: 0%;
+}
+
+.display-inline {
+    display: inline;
+}
