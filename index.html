@@ -23,7 +23,7 @@
 
 <body>
     <div class="container">
-        <div class="row mt-5">
+        <div class="row mt-5" id="app">
             <div class="col-lg-8">
                 <div class="card">
                     <h5 class="card-header info-color white-text text-center py-4">
@@ -33,13 +33,13 @@
                     <!--Card content-->
                     <div class="card-body px-lg-5 pt-5">
 
-
                         <form>
                             <div class="form-row mb-2">
                                 <div class="form-group col-md-12 m-0">
                                     <img src="./asserts/nw-logo.png" width="35%">
                                     <div class="custom-control custom-switch float-right mt-4">
-                                        <input type="checkbox" class="custom-control-input" id="customSwitches">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitches"
+                                            v-on:click="togglePreview">
                                         <label class="custom-control-label" for="customSwitches">Toggle this switch
                                             to privew the ID</label>
                                     </div>
@@ -116,8 +116,8 @@
 
                 </div>
             </div>
-            <div class="col-lg-4">
-
+            <div class="col-lg-4" v-show="toggleBtn">
+                Preview ID here based on toggle...!
             </div>
         </div>
 
@@ -134,6 +134,7 @@
         <!-- Vue.js must be added before our custom code from https://cdnjs.com/libraries/vue -->
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+        <script src="./scripts/app.js"></script>
 </body>
 
 </html>
