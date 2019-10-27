@@ -1,6 +1,6 @@
 .btn-generate {
     margin-left: 13px;
-    padding: 10px 30px !important;
+    padding: 11px 34px !important;
 }
 
 .form-generate {
@@ -11,4 +11,56 @@
 
 .display-inline {
     display: inline;
+    font-weight: 700;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.card-id {
+    border: 1px solid #888;
+    width: 120%;
+    height: 30%;
+    border-radius: 5%;
+}
+
+.captilize-text {
+    text-transform: capitalize;
+}
+
+.mbn-14 {
+    margin-bottom: -14px;
+}
+
+.img-center {
+    margin: 0px auto;
+    margin-top: 50px;
+    opacity: 0.5;
+}
+
+.top-left {
+    position: absolute;
+}
+
+.f-12 {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.black-strip {
+    border: 20px solid black;
+    position: absolute;
+    width: 110%;
+    margin-left: 15px;
+    margin-top: 135px;
+}
+
+.safe-icon {
+    margin: 10px 0px 0px 40px;
+    opacity: 0.8;
+}
+
+.b-left {
+    border-left: 1px solid #ccc;
 }
