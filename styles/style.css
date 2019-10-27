@@ -49,7 +49,7 @@
 }
 
 .black-strip {
-    border: 20px solid black;
+    border: 20px solid #333;
     position: absolute;
     width: 110%;
     margin-left: 15px;
