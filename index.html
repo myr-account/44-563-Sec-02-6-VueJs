@@ -51,12 +51,12 @@
                                 <div class="form-group col-md-9">
                                     <input v-model="userDetails.sid" id="sid" type="text"
                                         class="form-control form-generate"
-                                        placeholder="Click on generate to get unique id">
+                                        placeholder="Click on generate to get unique id" disabled>
                                 </div>
                                 <div class="form-group col-md-3">
-                                    <button v-on:click.prevent="geneeateID"
-                                        class="btn btn-sm btn-primary btn-generate">Generate
-                                        ID</button>
+                                    <button v-on:click.prevent="geneeateID" class="btn btn-sm btn-primary btn-generate">
+                                        Generate ID
+                                    </button>
                                 </div>
                             </div>
 
@@ -95,14 +95,14 @@
                                 <div class="form-group col-md-4">
                                     <div class="form-check">
                                         <input v-model="userDetails.gender" type="radio" class="form-check-input"
-                                            value="male" id="male">
+                                            value="male" id="male" v-on:click="getImgIcon('male')">
                                         <label class="form-check-label" for="male">Male</label>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <div class="form-check">
                                         <input v-model="userDetails.gender" type="radio" class="form-check-input"
-                                            value="female" id="female">
+                                            value="female" id="female" v-on:click="getImgIcon('female')">
                                         <label class="form-check-label" for="female">Female</label>
                                     </div>
                                 </div>
@@ -138,14 +138,69 @@
                             </div>
 
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary">Request ID</button>
+                                <button type="submit" class="btn btn-primary" v-on:click.prevent="togglePreview">
+                                    Request ID
+                                </button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4" v-show="toggleBtn">
-                Preview ID here based on toggle...!
+            <div class="col-lg-4 b-left" v-show="toggleBtn">
+                <span class="text-center">Preview Your ID card below...</span>
+                <br />
+                <div class="card-id mt-4">
+                    <div class="border-bottom">
+                        <img src="./asserts/nw-logo.png" width="35%" class="mt-3 ml-3">
+                        <h4 class="display-inline float-right mt-4 mr-3">Northwest Bearcat ID</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 pr-0 mt-2">
+                            <div class="mbn-14" v-if="userDetails.sid">
+                                <label class="ml-2">SID: </label>
+                                <strong class="font-600">
+                                    {{userDetails.sid}}
+                                </strong>
+                            </div>
+                            <img v-bind:src="userDetails.imagePath" width="100%">
+                        </div>
+                        <div class="col-sm-8 p-0 mt-2">
+                            <div>
+                                <label>Name: </label>
+                                <strong class="font-600">
+                                    {{userDetails.fname}}
+                                </strong>
+                                <strong v-show="userDetails.lname" class="font-600">, {{userDetails.lname}}</strong>
+                            </div>
+                            <div>
+                                <label>Category: </label>
+                                <strong class="font-600" v-show="userDetails.category !== 'Choose...'">
+                                    {{userDetails.category}}
+                                </strong>
+                            </div>
+                            <div>
+                                <label>Gender: </label>
+                                <strong class="font-600 captilize-text">
+                                    {{userDetails.gender}}
+                                </strong>
+                            </div>
+                            <div>
+                                <label>Address: </label>
+                                <strong class="font-600 captilize-text">
+                                    {{userDetails.inputAddress}}
+                                </strong>
+                                <strong class="font-600 captilize-text" v-show="userDetails.inputAddress2">
+                                    , {{userDetails.inputAddress2}}
+                                </strong>
+                                <br>
+                                <strong class="font-600 captilize-text">
+                                    {{userDetails.inputCity}}, {{userDetails.inputState}}, {{userDetails.inputZip}}
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
