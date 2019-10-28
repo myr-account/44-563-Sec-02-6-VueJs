@@ -64,3 +64,15 @@
 .b-left {
     border-left: 1px solid #ccc;
 }
+
+.hasPreview {
+    color: white ;
+    background-color: #ea7777 !important;
+    padding: 14px 74px;
+}
+
+.isSubmit {
+    color: white;
+    background-color: #b8e65c;
+    padding: 14px 74px;
+}

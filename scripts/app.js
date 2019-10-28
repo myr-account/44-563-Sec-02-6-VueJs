@@ -14,6 +14,8 @@ new Vue({
             inputState: 'Missouri',
             inputZip: '64468',
         },
+        outputText: 'Preview Your ID card below...',
+        hasPreview: true
     },
     computed: {
         // computed properties goes here
@@ -21,8 +23,16 @@ new Vue({
     },
     methods: {
         // methods goes here
-        togglePreview: function () {
+        togglePreview: function (submitAction) {
+            this.hasPreview = true;
+            this.outputText = 'Preview Your ID card below...';
             this.toggleBtn ? this.toggleBtn = false : this.toggleBtn = true;
+        },
+
+        submitForm: function () {
+            this.outputText = 'ID request has submitted..';
+            this.hasPreview = false;
+            this.toggleBtn = true;
         },
 
         geneeateID: function () {
