@@ -23,7 +23,7 @@ new Vue({
     },
     methods: {
         // methods goes here
-        togglePreview: function (submitAction) {
+        togglePreview: function () {
             this.hasPreview = true;
             this.outputText = 'Preview Your ID card below...';
             this.toggleBtn ? this.toggleBtn = false : this.toggleBtn = true;
@@ -36,6 +36,8 @@ new Vue({
         },
 
         geneeateID: function () {
+            this.toggleBtn = false;
+            this.togglePreview();
             let id = parseInt(Math.random() * 1000000);
             id = "919" + id.toString();
             this.userDetails.sid = id;
