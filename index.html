@@ -23,7 +23,7 @@
 
 <body>
     <div id="app" class="container">
-        <div class="row mt-5">
+        <div class="row mt-5 mb-5">
             <div class="col-lg-8">
                 <div class="card">
                     <h5 class="card-header info-color white-text text-center py-4">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 b-left" v-show="toggleBtn">
+            <div class="col-lg-4 b-left" v-if="toggleBtn">
                 <span class="isSubmit" v-bind:class="{ hasPreview: hasPreview }">{{outputText}}</span>
                 <br />
                 <div class="card-id mt-4">
