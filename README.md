@@ -12,24 +12,20 @@ If you are an experienced frontend developer and want to know how Vue compares t
 
 Vue Js is used to create single page applications. It reuse components and runs on the browser. It uses a JSX syntax.
 
-## Readme edited by bharat reddy
+## Demo:
 
-## Hi All, Let's get started with VueJs - Yugandhar Mamidi
+The demo is regarding *Bearcat Id* form, where you need to enter the relevant data in the required fields to get your ID generated.
 
-## Hi guys, let's start our work on VueJs. Omkar Abhiteja Badda
-- Created a pull request
-
-## This is Anil Bomma. let's get started..!
 
 ## References:
 
 * View Vue.js docs [click-here](https://vuejs.org/v2/guide)
 
 ## Contributors
- Bharat Reddy, Find his [Github](https://github.com/bharat-reddy-male)
+* Bharat Reddy, Find his [Github](https://github.com/bharat-reddy-male)
 
- Omkar Abhiteja Badda, Find his [Github](https://github.com/abhiteja29)
+* Omkar Abhiteja Badda, Find his [Github](https://github.com/abhiteja29)
 
- Anil Bomma, Find me here [Github](https://github.com/anil-bomma)
+* Anil Bomma, Find me here [Github](https://github.com/anil-bomma)
 
- Yugandhar Mamidi, Find my account [GitHub](https://github.com/yugimamidi)
+* Yugandhar Mamidi, Find my account [GitHub](https://github.com/yugimamidi)
