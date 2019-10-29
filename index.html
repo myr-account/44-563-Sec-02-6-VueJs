@@ -49,14 +49,12 @@
 
                             <div class="form-row mb-2">
                                 <div class="form-group col-md-9">
-                                    <input v-model="userDetails.sid" id="sid" type="text"
-                                        class="form-control form-generate"
+                                    <input id="sid" type="text"
+                                        class="form-control form-generate" value="123456789"
                                         placeholder="Click on generate to get unique id" disabled>
                                 </div>
                                 <div class="form-group col-md-3">
-                                    <button v-on:click.prevent="geneeateID" class="btn btn-sm btn-primary btn-generate">
-                                        Generate ID
-                                    </button>
+                                    <!-- btn btn-sm btn-primary btn-generate -->
                                 </div>
                             </div>
 

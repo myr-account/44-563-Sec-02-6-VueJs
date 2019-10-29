@@ -9,7 +9,7 @@ new Vue({
         userDetails: {
             category: 'Choose...',
             gender: '',
-            sid: '',
+            sid: '123456789',
             inputCity: 'Maryville',
             inputState: 'Missouri',
             inputZip: '64468',
@@ -33,14 +33,6 @@ new Vue({
             this.outputText = 'ID request has submitted..';
             this.hasPreview = false;
             this.toggleBtn = true;
-        },
-
-        geneeateID: function () {
-            this.toggleBtn = false;
-            this.togglePreview();
-            let id = parseInt(Math.random() * 1000000);
-            id = "919" + id.toString();
-            this.userDetails.sid = id;
         },
 
         getImgIcon: function (gender) {
