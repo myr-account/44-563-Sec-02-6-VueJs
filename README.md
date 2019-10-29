@@ -1,6 +1,6 @@
 # 44-563-Sec-02-6-VueJs
 
-## VueJs project.
+## VueJs Project
 
 ### What is Vue.js?
 
@@ -12,7 +12,7 @@ If you are an experienced frontend developer and want to know how Vue compares t
 
 Vue Js is used to create single page applications. It reuse components and runs on the browser. It uses a JSX syntax.
 
-## Demo:
+### Demo:
 
 The demo is regarding *Bearcat Id* form, where you need to enter the relevant data in the required fields to get your ID generated.
 
@@ -21,7 +21,8 @@ The demo is regarding *Bearcat Id* form, where you need to enter the relevant da
 
 * View Vue.js docs [click-here](https://vuejs.org/v2/guide)
 
-## Contributors
+## Contributors:
+
 * Bharat Reddy, Find his [Github](https://github.com/bharat-reddy-male)
 
 * Omkar Abhiteja Badda, Find his [Github](https://github.com/abhiteja29)
