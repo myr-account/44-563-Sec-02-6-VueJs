@@ -50,11 +50,12 @@
                             <div class="form-row mb-2">
                                 <div class="form-group col-md-9">
                                     <input id="sid" type="text"
-                                        class="form-control form-generate" value="123456789"
+                                        class="form-control form-generate" v-model="userDetails.sid"
                                         placeholder="Click on generate to get unique id" disabled>
                                 </div>
                                 <div class="form-group col-md-3">
                                     <!-- btn btn-sm btn-primary btn-generate -->
+                                    <button class="btn btn-sm btn-primary btn-generate" v-on:click.prevent="generateID">GenerateID</button>
                                 </div>
                             </div>
 

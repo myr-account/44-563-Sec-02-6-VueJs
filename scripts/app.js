@@ -9,7 +9,7 @@ new Vue({
         userDetails: {
             category: 'Choose...',
             gender: '',
-            sid: '123456789',
+            sid: '',
             inputCity: 'Maryville',
             inputState: 'Missouri',
             inputZip: '64468',
@@ -42,6 +42,11 @@ new Vue({
                 this.userDetails.imagePath = womenImgPath;
             else
                 this.userDetails.imagePath = '';
+        },
+
+        generateID: function(){
+            let id = "919" + parseInt(Math.random()*1000000);
+            this.userDetails.sid = id;
         }
     }
 })
